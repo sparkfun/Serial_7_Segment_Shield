@@ -9,6 +9,11 @@ Repository Contents
 
 * **/hardware** - Eagle PCB layout files
 
+Version History
+---------------
+* vH02 First production run
+* vH01 First protoboard run.
+
 License Information
 -------------------
 
