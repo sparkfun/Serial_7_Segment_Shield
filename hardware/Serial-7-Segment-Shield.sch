@@ -9289,6 +9289,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheet>
 <plain>
 <text x="152.4" y="7.62" size="1.778" layer="94">Jordan McConnell</text>
+<text x="238.76" y="7.62" size="1.778" layer="94">v02</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

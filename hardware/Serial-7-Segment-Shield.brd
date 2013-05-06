@@ -137,10 +137,21 @@
 <text x="3.048" y="7.112" size="1.016" layer="21" font="vector" ratio="15">VCC</text>
 <text x="3.048" y="4.572" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="6.35" y="1.27" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v02</text>
-<text x="36.83" y="-17.78" size="1.778" layer="104" font="vector" ratio="15">Jordan McConnell</text>
+<text x="36.83" y="-17.78" size="1.778" layer="27" font="vector" ratio="15">Jordan McConnell</text>
 <text x="3.048" y="2.032" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="32.639" y="45.72" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">RX</text>
 <text x="30.988" y="44.196" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">!CS</text>
+<text x="2.159" y="44.196" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Color</text>
+<text x="3.81" y="45.593" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Red</text>
+<text x="5.08" y="45.593" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Grn</text>
+<text x="6.35" y="45.593" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Wht</text>
+<text x="7.62" y="45.593" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Ylw</text>
+<text x="8.89" y="45.593" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Blu</text>
+<rectangle x1="2.6035" y1="44.1325" x2="3.8735" y2="45.2755" layer="21" rot="R90"/>
+<rectangle x1="3.8735" y1="44.1325" x2="5.1435" y2="45.2755" layer="21" rot="R90"/>
+<rectangle x1="5.1435" y1="44.1325" x2="6.4135" y2="45.2755" layer="21" rot="R90"/>
+<rectangle x1="6.4135" y1="44.1325" x2="7.6835" y2="45.2755" layer="21" rot="R90"/>
+<rectangle x1="7.6835" y1="44.1325" x2="8.9535" y2="45.2755" layer="21" rot="R90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2291,14 +2302,6 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="47.4019" x2="33.02" y2="50.8" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,563c537987568213"/>
-<approved hash="1,20,8abdba81b4ce84f2"/>
-<approved hash="1,20,df4df533f562df1c"/>
-<approved hash="1,20,8a3eba02b8198825"/>
-<approved hash="5,1,c3c30a61bbbee5eb"/>
-<approved hash="5,1,68cf715289bee5e4"/>
-</errors>
 </board>
 </drawing>
 </eagle>
