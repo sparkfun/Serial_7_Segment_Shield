@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27,9 +27,9 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="6" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
@@ -9244,14 +9244,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U$4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP9" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP10" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -9261,20 +9261,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="NEW"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="NEW"/>
 <part name="U$1" library="SparkFun-Displays" deviceset="7-SEGMENT-4DIGIT-COUNTER" device="PTH"/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="100"/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1k"/>
-<part name="R14" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="R15" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10k"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R14" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R15" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
@@ -9289,7 +9289,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheet>
 <plain>
 <text x="152.4" y="7.62" size="1.778" layer="94">Jordan McConnell</text>
-<text x="238.76" y="7.62" size="1.778" layer="94">v10</text>
+<text x="238.76" y="7.62" size="1.778" layer="94">v11</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
